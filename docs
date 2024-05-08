@@ -1,0 +1,54 @@
+# Hack Hound Documentation
+
+Welcome to Hack Hound Documentation!
+
+## Introduction
+
+Hack Hound is a Python-based web security tool designed for professionals and penetration testers. It provides a comprehensive suite of features to scan web applications for vulnerabilities such as XSS, SQL injection, CSRF, and more.
+
+## Usage
+
+To use Hack Hound, follow these steps:
+
+1. **Installation**:
+   - Clone the repository: `git clone https://github.com/LeoRyanUS/Hack-Hound.git`
+   - Navigate to the project directory: `cd Hack-Hound`
+   - Install the dependencies: `pip install -r requirements.txt`
+
+2. **Running the Tool**:
+   - Run the tool: `python hackhound.py`
+   - Follow the prompts to enter the target URL and choose the type of vulnerability scan.
+
+3. **Available Scan Types**:
+   - XSS (Cross-Site Scripting)
+   - SQL injection
+   - Path Traversal
+   - CSRF (Cross-Site Request Forgery)
+   - SSRF (Server-Side Request Forgery)
+   - Command Injection
+
+4. **Comprehensive Scan**:
+   - Use the `--scan-type all` option to perform a comprehensive scan for all vulnerability types.
+
+5. **Search Engine Scan**:
+   - Use the `--search-engine-scan` option to perform a comprehensive scan using a search engine.
+
+6. **Example Usage**:
+   - `python hackhound.py http://example.com --scan-type all`
+   - `python hackhound.py http://example.com --search-engine-scan`
+
+## Vulnerability Detection
+
+Hack Hound employs various techniques to detect vulnerabilities:
+- **XSS**: Identifies potential XSS vulnerabilities by analyzing input fields and URL parameters.
+- **SQL Injection**: Checks for SQL injection vulnerabilities by injecting SQL queries into input fields.
+- **Path Traversal**: Detects path traversal vulnerabilities by attempting to access restricted files or directories.
+- **CSRF**: Identifies CSRF vulnerabilities by analyzing form submission and request patterns.
+- **SSRF**: Detects SSRF vulnerabilities by analyzing server responses and URL redirections.
+- **Command Injection**: Checks for command injection vulnerabilities by injecting shell commands into input fields.
+
+## Contribution
+
+Contributions to Hack Hound are welcome! If you'd like to contribute, please refer to the CONTRIBUTING.md file for guidelines.
+
+For any questions or assistance, feel free to contact Leo Ryan at leoryanus@gmail.com.
