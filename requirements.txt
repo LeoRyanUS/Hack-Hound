@@ -1,0 +1,8 @@
+# Hack Hound Requirements
+# Developed by Leo Ryan
+# GitHub: https://github.com/LeoRyanUS
+# Email: leoryanus@gmail.com
+
+beautifulsoup4==4.10.0
+colorama==0.4.4
+requests==2.26.0
