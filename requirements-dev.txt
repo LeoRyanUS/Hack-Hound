@@ -1,0 +1,8 @@
+# Hack Hound Development Requirements
+# Developed by Leo Ryan
+# GitHub: https://github.com/LeoRyanUS/Hack-Hound
+# GitHub Username: LeoRyanUS
+# Email: leoryanus@gmail.com
+
+pytest==7.5.0
+flake8==4.0.1
