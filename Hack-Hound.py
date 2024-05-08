@@ -19,6 +19,28 @@ def welcome_message():
            Email:leoryanus@gmail.com                                          
 """ + Style.RESET_ALL)
 
+    print(Fore.CYAN + "Usage Instructions:" + Style.RESET_ALL)
+    print("- To scan for all vulnerabilities: ")
+    print("    python3 Hack-Hound.py <target_url> --scan-type all")
+    print("- To scan for a specific vulnerability type (e.g., XSS): ")
+    print("    python3 Hack-Hound.py <target_url> --scan-type xss")
+    print("- To perform a comprehensive scan using a search engine: ")
+    print("    python3 Hack-Hound.py <target_url> --search-engine-scan")
+    
+    print(Fore.CYAN + "\nExploitation Methods:" + Style.RESET_ALL)
+    print("- For XSS vulnerability: ")
+    print("  - Inject malicious JavaScript code into input fields or parameters to execute arbitrary code.")
+    print("- For SQL Injection vulnerability: ")
+    print("  - Manipulate SQL queries to extract, modify, or delete data from the database.")
+    print("- For Path Traversal vulnerability: ")
+    print("  - Traverse directories to access sensitive files or directories outside the web root.")
+    print("- For CSRF vulnerability: ")
+    print("  - Craft malicious requests to perform unwanted actions on behalf of the victim user.")
+    print("- For SSRF vulnerability: ")
+    print("  - Exploit the server to perform requests to internal or external systems.")
+    print("- For Command Injection vulnerability: ")
+    print("  - Inject malicious commands through user inputs to execute arbitrary commands on the server.")
+
 # Placeholder function for XSS vulnerability scan
 def scan_for_xss(target_url):
     # Placeholder message with color
