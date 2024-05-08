@@ -1,0 +1,8 @@
+# Hack Hound GitHub Settings
+# Developed by Leo Ryan
+# GitHub: https://github.com/LeoRyanUS/Hack-Hound
+# GitHub Username: LeoRyanUS
+# Email: leoryanus@gmail.com
+
+# Directory for GitHub Action workflows
+/workflows
